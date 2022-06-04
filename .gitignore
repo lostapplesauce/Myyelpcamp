@@ -1,0 +1,3 @@
+# This file is so git won't show any of this information
+node_modules
+.env
