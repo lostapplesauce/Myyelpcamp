@@ -1,6 +1,9 @@
 {
   "name": "yelpcamp",
   "version": "1.0.0",
+  "engines":{
+    "node": "16.x"
+},
   "description": "A camp website with details on campsites nation wide",
   "main": "app.js",
   "dependencies": {
