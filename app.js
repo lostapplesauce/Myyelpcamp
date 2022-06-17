@@ -179,6 +179,7 @@ app.use((err, req, res, next) => {
 });
 
 //heroku has a default port it works on
+// will get the port for heroku after pushing it onto heroku
 const port = process.env.PORT || 3000;
 app.listen(port, () => {
   console.log(`Serving on port ${port}`);
